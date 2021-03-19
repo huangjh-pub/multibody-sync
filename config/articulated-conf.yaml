@@ -1,0 +1,19 @@
+type: "conf"
+save_path: "ckpt/articulated-conf"
+
+flow_model: "config/articulated-flow.yaml"
+
+train_base_folder: "../dataset/mbs-shapepart"
+val_base_folder: "../dataset/mbs-shapepart"
+
+epochs: 50
+batch_size: 32
+
+lr: 1.0e-3
+lr_decay: 0.7
+lr_clip: 1.0e-5
+
+bn_momentum: 0.9
+bn_decay: 0.5
+weight_decay: 0.0
+decay_step: 400000

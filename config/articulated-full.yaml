@@ -1,0 +1,22 @@
+type: "full"
+flow_model: "config/articulated-flow.yaml"
+conf_model: "config/articulated-conf.yaml"
+mot_model: "config/articulated-mot.yaml"
+
+save_path: "ckpt/articulated-full"
+
+train_base_folder: "../dataset/mbs-shapepart"
+val_base_folder: "../dataset/mbs-shapepart"
+test_base_folder: "../dataset/mbs-sapien"
+
+epochs: 10
+batch_size: 4
+
+lr: 1.0e-6
+lr_decay: 1.0
+lr_clip: 1.0e-6
+alpha: 0.05
+
+bn_momentum: 1.0e-6
+decay_step: -1  # No decay
+weight_decay: 0.0

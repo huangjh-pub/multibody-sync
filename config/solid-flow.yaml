@@ -1,0 +1,17 @@
+type: "flow"
+save_path: "ckpt/solid-flow"
+
+train_base_folder: "../dataset/mbs-shapewhole"
+val_base_folder: "../dataset/mbs-shapewhole"
+
+epochs: 80
+batch_size: 32
+
+lr: 1.0e-3
+lr_decay: 0.5
+lr_clip: 1.0e-5
+
+bn_momentum: 0.9
+bn_decay: 0.5
+weight_decay: 0.0
+decay_step: 400000

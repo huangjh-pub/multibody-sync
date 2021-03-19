@@ -1,0 +1,5 @@
+pyquaternion
+tqdm
+tensorboardx
+pyyaml
+open3d==0.11.2

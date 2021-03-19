@@ -1,0 +1,22 @@
+type: "full"
+flow_model: "config/solid-flow.yaml"
+conf_model: "config/solid-conf.yaml"
+mot_model: "config/solid-mot.yaml"
+
+save_path: "ckpt/solid-full"
+
+train_base_folder: "../dataset/mbs-shapewhole"
+val_base_folder: "../dataset/mbs-shapewhole"
+test_base_folder: "../dataset/mbs-dynlab"
+
+epochs: 10
+batch_size: 4
+
+lr: 1.0e-6
+lr_decay: 1.0
+lr_clip: 1.0e-6
+alpha: 0.15
+
+bn_momentum: 1.0e-6
+decay_step: -1  # No decay
+weight_decay: 0.0
