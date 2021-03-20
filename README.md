@@ -23,7 +23,7 @@ Please install Pytorch (>=1.6) and run the following code (e.g. in a notebook), 
 ```python
 import torch
 # Load model
-my_model = torch.hub.load('huangjh-pub/multibody-sync', 'model_articulated', pretrained=True)
+my_model = torch.hub.load('huangjh-pub/multibody-sync:public', 'model_articulated', pretrained=True)
 my_model.cuda().eval()
 # Perform inference, data has to be (1, K, N, 3) cuda tensor.
 my_model.forward(data)
