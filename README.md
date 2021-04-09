@@ -4,7 +4,6 @@
 
 This repository contains a PyTorch implementation of the above paper. It will be presented at [CVPR2021](http://cvpr2021.thecvf.com/) as an oral.
 - Paper Link: https://arxiv.org/abs/2101.06605
-    - An update with minor corrections is due by the end of this month. Stay tuned.
 - Authors: [Jiahui Huang](https://cg.cs.tsinghua.edu.cn/people/~huangjh/), [He Wang](http://ai.stanford.edu/~hewang/), [Tolga Birdal](http://tbirdal.me/), [Minhyuk Sung](https://mhsung.github.io/), [Federica Arrigoni](https://scholar.google.com/citations?user=bzBtqfQAAAAJ&hl=nl), [Shi-Min Hu](https://cg.cs.tsinghua.edu.cn/shimin.htm), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)
     - Contact Jiahui either via email or github issues :)
 - Talks & Videos: Coming soon.
