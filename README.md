@@ -6,7 +6,7 @@ This repository contains a PyTorch implementation of the above paper. It will be
 - Paper Link: https://arxiv.org/abs/2101.06605
 - Authors: [Jiahui Huang](https://cg.cs.tsinghua.edu.cn/people/~huangjh/), [He Wang](http://ai.stanford.edu/~hewang/), [Tolga Birdal](http://tbirdal.me/), [Minhyuk Sung](https://mhsung.github.io/), [Federica Arrigoni](https://scholar.google.com/citations?user=bzBtqfQAAAAJ&hl=nl), [Shi-Min Hu](https://cg.cs.tsinghua.edu.cn/shimin.htm), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)
     - Contact Jiahui either via email or github issues :)
-- Talks & Videos: Coming soon.
+- Talks & Videos: [YouTube](https://www.youtube.com/watch?v=BuIBXL2UNvI).
 
 ## Introduction
 
@@ -25,7 +25,8 @@ import torch
 my_model = torch.hub.load('huangjh-pub/multibody-sync:public', 'model_articulated', pretrained=True)
 my_model.cuda().eval()
 # Perform inference, data has to be (1, K, N, 3) cuda tensor.
-my_model.forward(data)
+with torch.no_grad():
+    my_model.forward(data)
 ```
 You may also need an example input (e.g. the one under `assets/laptop.npy`) to feed into the model. We suggest you normalize your point cloud (preferably with *-Y axis* up) beforehand to get the best result.
 
