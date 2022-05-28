@@ -116,10 +116,6 @@ The paper will not appear in the proceedings before the conference actually take
 }
 ```
 
-## Other implementations
-
-- [MultiBodySync Jittor](https://github.com/heiwang1997/mbs-jittor): Jittor implementation.
-
 ## Reference code
 
 - [erikwijmans/Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
